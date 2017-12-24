@@ -120,12 +120,18 @@
     </div>
 
 
+    <fb:login-button
+      scope="public_profile,email"
+      onlogin="checkLoginState();">
+    </fb:login-button>
+
 <script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '931758953647663',
       cookie     : true,
       xfbml      : true,
+      version    : 'v2.11'
     });
 
     FB.AppEvents.logPageView();
@@ -139,6 +145,13 @@
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
 </script>
 
   </body>
