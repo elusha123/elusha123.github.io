@@ -1,0 +1,116 @@
+
+//背景
+body{
+  background-color: pink;
+}
+
+//字體大小
+span{
+  font-size: 30px;
+}
+
+//背景
+.YO-bg{
+  background-color: white;
+}
+
+//字體30,粗體
+.font-size-30{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+//字體樣式
+.my-font{
+  font-family: 標楷體;
+}
+
+//置左
+.text-align-left{
+  text-align: left;
+}
+
+//置右
+.text-align-right{
+  text-align: right;
+}
+
+
+//置中
+.text-align-center{
+  text-align: center;
+}
+
+//底線
+.my-font-01{
+  text-decoration: underline;
+}
+
+//字體劃中線
+.my-font-02{
+  text-decoration: line-through;
+}
+
+//字體上劃線
+.my-font-03{
+  text-decoration: overline;
+}
+
+//字體間距
+.my-font-04{
+  letter-spacing: 10px;
+}
+
+//空格間距
+.my-font-05{
+  word-spacing: 10px;
+}
+
+//粗體字,指定粗細
+.my-font-06{
+  line-height: 40px;
+}
+
+//
+.my-class{
+  border: 5px solid #ff0000;
+  width: 200px;
+  height: 300px;
+}
+
+.my-class-02{
+  padding: 60px 60px;
+}
+
+.position-relative{
+position: relative;
+left: 100px;
+top: 100px;
+}
+
+.position-fixed{
+  position: fixed;
+  right: 30px;
+  top: 90px;
+}
+
+.position-absulute{
+  position: absolute;
+  left: 90px;
+  top: 100px;
+}
+
+.box-a{
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.my-class:hover{
+  font-size: 90px;
+  background-color: #000000
+}
+
+.my-class:first-of-type{
+  background-color: white;
+}
